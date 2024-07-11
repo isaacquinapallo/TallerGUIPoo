@@ -5,6 +5,9 @@ public class Estudiante {
     private int edad;
     private String matricula;
     private JPanel mainPanel;
+    private JLabel labelNombre;
+    private JLabel labelEdad;
+    private JLabel labelMatricula;
 
     // Constructor
     public Estudiante(String nombre, int edad, String matricula) {
